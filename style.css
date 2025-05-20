@@ -1,0 +1,76 @@
+body {
+    max-width: 700px;
+    margin: 30px auto;
+    border: 2px solid #222;
+    padding: 40px 40px 30px 40px;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #222;
+  }
+  
+  header h1 {
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-bottom: 0.2em;
+  }
+  
+  header h4 {
+    color: #2ecc40;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  
+  .address {
+    margin-bottom: 1.5em;
+  }
+  
+  section {
+    margin-bottom: 1.5em;
+  }
+  
+  h4 {
+    margin-bottom: 0.2em;
+    margin-top: 1.2em;
+    font-size: 1.1em;
+    font-weight: 400;
+  }
+  
+  .skills {
+    margin-bottom: 1.2em;
+  }
+  
+  .Titre3 {
+    color: #0074d9;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  section:nth-of-type(2) h4,
+  section:nth-of-type(3) h4 {
+    color: #2ecc40;
+  }
+  
+  section:nth-of-type(4) h4 {
+    color: #2ecc40;
+  }
+  
+  ul {
+    margin-top: 0.2em;
+    margin-bottom: 0.8em;
+    padding-left: 1.2em;
+  }
+  
+  hr {
+    border: none;
+    border-top: 3px solid #222;
+    margin: 1.2em 0 1.5em 0;
+  }
+  
+  section:last-of-type h4 {
+    color: #2ecc40;
+  }
+  
+  hr{
+    margin-right: 150px;
+  }
