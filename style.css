@@ -14,45 +14,47 @@ body {
     margin-bottom: 0.2em;
   }
   
-  header h4 {
+  header hr {
+    border: none;
+    border-top: 3px solid #222;
+    margin: 0.5em 0 1.2em 0;
+  }
+  
+  .job-title {
     color: #2ecc40;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 1em;
+    font-size: 1.2em;
   }
   
   .address {
     margin-bottom: 1.5em;
+    font-style: normal;
   }
   
-  section {
-    margin-bottom: 1.5em;
-  }
-  
-  h4 {
+  .section-title {
     margin-bottom: 0.2em;
     margin-top: 1.2em;
     font-size: 1.1em;
     font-weight: 400;
   }
   
+  .green {
+    color: #2ecc40;
+  }
+  
+  .blue {
+    color: #0074d9;
+    font-weight: bold;
+  }
+  
   .skills {
     margin-bottom: 1.2em;
   }
   
-  .Titre3 {
-    color: #0074d9;
-    font-weight: bold;
-    display: inline-block;
-  }
-  
-  section:nth-of-type(2) h4,
-  section:nth-of-type(3) h4 {
-    color: #2ecc40;
-  }
-  
-  section:nth-of-type(4) h4 {
-    color: #2ecc40;
+  .edu-block, .exp-block {
+    margin-bottom: 1.2em;
   }
   
   ul {
@@ -61,16 +63,12 @@ body {
     padding-left: 1.2em;
   }
   
-  hr {
-    border: none;
-    border-top: 3px solid #222;
-    margin: 1.2em 0 1.5em 0;
+  .exp-skills {
+    display: block;
+    margin-top: 0.2em;
   }
   
-  section:last-of-type h4 {
-    color: #2ecc40;
-  }
-  
-  hr{
-    margin-right: 150px;
+  a {
+    color: #0074d9;
+    text-decoration: none;
   }
